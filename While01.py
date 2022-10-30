@@ -2,8 +2,16 @@ def main(s):
     """
     A variable of type str is given. Find how many numbers it contains and return.
     Args:
-        s: str
+      s: str
     Returns:
-        int: return answer
-    """
-    return
+      int: return answer
+   """
+    i=0
+    d=0
+    while i<len(s):
+        if s[i].isdigit():
+           d+=1
+        i+=1
+    return d
+    
+print(main('python 2002'))
