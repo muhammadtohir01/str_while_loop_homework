@@ -7,8 +7,8 @@ def main(s):
         int: return answer
     """
     i=0
-    d=0
-    while i<=len(s)+1:
+    d=1
+    while i<=len(s):
         if i%2==0:
             d+=1
         i+=1
