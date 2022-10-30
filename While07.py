@@ -8,9 +8,9 @@ def main(s):
     """
     i=0
     d=0
-    while i<=len(s):
-        if i%2!=0:
+    while i<=len(s)+1:
+        if i%2==0:
             d+=1
         i+=1
     return d
-print(main('456777777777'))
+print(main('3444434'))
