@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    d=0
+    while i<len(s):
+        if i%2==0:
+            d+=1
+        i+=1
+    return d
+print(main('56786543250'))
