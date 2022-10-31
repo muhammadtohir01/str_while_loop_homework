@@ -10,8 +10,8 @@ def main(s):
     i=0
     d=0
     while i<len(s):
-        if s[i].ispunctuation():
+        if s[i] in string.punctuation:
             d+=1
         i+=1
     return d
-print(main('sal,#om'))
+print(main('sa%$#@l,#om'))
