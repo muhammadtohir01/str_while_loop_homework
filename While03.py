@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    d=0
+    while i<len():
+        if s[i].strip():
+            d+=1
+    i+=1
+    return d
+print(main('salom'))
