@@ -11,6 +11,6 @@ def main(s):
     while i<len(s):
         if s[i].strip():
             d+=1
-    i+=1
+        i+=1
     return d
 print(main('salom'))
