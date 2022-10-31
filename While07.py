@@ -9,10 +9,11 @@ def main(s):
     i=0
     d=0
     while i<len(s):
-        if int(s[i])%2==0:
-            d+=1
-        else:
-            d+=0
+        if str(s[i]).isdigit():
+            if int(s[i])%2==0:
+             d+=1
+            else:
+             d+=0
         i+=1
     return d
-print(main('222222222222'))
+print(main('222222233222220'))
