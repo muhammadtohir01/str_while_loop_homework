@@ -8,7 +8,7 @@ def main(s):
     """
     i=0
     d=0
-    while i<len():
+    while i<len(s):
         if s[i].strip():
             d+=1
     i+=1
