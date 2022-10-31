@@ -7,10 +7,12 @@ def main(s):
         int: return answer
     """
     i=0
-    d=1
-    while i<=len(s):
-        if i%2==0:
+    d=0
+    while i<len(s):
+        if int(s[i])%2==0:
             d+=1
+        else:
+            d+=0
         i+=1
     return d
-print(main('3444434'))
+print(main('222222222222'))
